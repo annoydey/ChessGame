@@ -1,0 +1,38 @@
+#board {
+    width: 640px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 80px;
+    width: 80px;
+}
+
+.square svg {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+
+.piece{
+    position: relative;
+    z-index: 9;
+}
+
+.beige{
+    background-color: rgb(17, 129, 221);
+}
+
+.green{
+    background-color: rgb(26, 216, 26);
+}
+
+.black{
+    fill: rgb(0, 0, 0);
+}
+
+.white {
+    fill: rgb(255, 255, 255);
+}
